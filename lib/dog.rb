@@ -90,6 +90,7 @@ class Dog
       dog.save
     end
     dog
+    binding.pry
   end
 
 end
