@@ -88,6 +88,7 @@ class Dog
       Dog.create({id: row[0], name: row[1], breed: row[2]})
     else
       dog = Dog.new(name: name, breed: breed)
+      dog.save
     end
     dog
   end
